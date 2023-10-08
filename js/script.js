@@ -245,13 +245,19 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 const applyColorScheme = (scheme) => {
-    document.documentElement.style.setProperty('--main-color', getComputedStyle(document.documentElement).getPropertyValue(`--${scheme}-main-color`));
-    document.documentElement.style.setProperty('--second-main-color', getComputedStyle(document.documentElement).getPropertyValue(`--${scheme}-second-main-color`));
-    document.documentElement.style.setProperty('--box-color', getComputedStyle(document.documentElement).getPropertyValue(`--${scheme}-box-color`));
-    document.documentElement.style.setProperty('--big-box-color', getComputedStyle(document.documentElement).getPropertyValue(`--${scheme}-big-box-color`));
-    document.documentElement.style.setProperty('--text-color', getComputedStyle(document.documentElement).getPropertyValue(`--${scheme}-text-color`));
-    document.documentElement.style.setProperty('--search', getComputedStyle(document.documentElement).getPropertyValue(`--${scheme}-search`));
-    document.documentElement.style.setProperty('--border', getComputedStyle(document.documentElement).getPropertyValue(`--${scheme}-border`));
-    document.documentElement.style.setProperty('--icons', getComputedStyle(document.documentElement).getPropertyValue(`--${scheme}-icons`));
+    document.documentElement.style.setProperty('--1-c', getComputedStyle(document.documentElement).getPropertyValue(`--${scheme}-1-c`));
+    document.documentElement.style.setProperty('--2-c', getComputedStyle(document.documentElement).getPropertyValue(`--${scheme}-2-c`));
+    document.documentElement.style.setProperty('--3-c', getComputedStyle(document.documentElement).getPropertyValue(`--${scheme}-3-c`));
+    document.documentElement.style.setProperty('--4-c', getComputedStyle(document.documentElement).getPropertyValue(`--${scheme}-4-c`));
+    document.documentElement.style.setProperty('--5-c', getComputedStyle(document.documentElement).getPropertyValue(`--${scheme}-5-c`));
+    document.documentElement.style.setProperty('--6-c', getComputedStyle(document.documentElement).getPropertyValue(`--${scheme}-6-c`));
+    document.documentElement.style.setProperty('--7-c', getComputedStyle(document.documentElement).getPropertyValue(`--${scheme}-7-c`));
+    document.documentElement.style.setProperty('--8-c', getComputedStyle(document.documentElement).getPropertyValue(`--${scheme}-8-c`));
+    document.documentElement.style.setProperty('--9-c', getComputedStyle(document.documentElement).getPropertyValue(`--${scheme}-9-c`));
+    document.documentElement.style.setProperty('--10-c', getComputedStyle(document.documentElement).getPropertyValue(`--${scheme}-10-c`));
+    document.documentElement.style.setProperty('--11-c', getComputedStyle(document.documentElement).getPropertyValue(`--${scheme}-11-c`));
+    document.documentElement.style.setProperty('--12-c', getComputedStyle(document.documentElement).getPropertyValue(`--${scheme}-12-c`));
 };
+
+
 
